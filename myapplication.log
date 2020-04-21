@@ -1,0 +1,55 @@
+2020-03-31 14:52:34.074  INFO 20564 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : Starting DiandianApplication on DESKTOP-DGGVMC8 with PID 20564 (E:\Spring\Projects\diandian\bin\main started by Administrator in E:\Spring\Projects\diandian)
+2020-03-31 14:52:34.074  INFO 20564 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : No active profile set, falling back to default profiles: default
+2020-03-31 14:52:34.173  INFO 20564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-03-31 14:52:34.179  INFO 20564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 MongoDB repository interfaces.
+2020-03-31 14:52:34.239  INFO 20564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-31 14:52:34.240  INFO 20564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-31 14:52:34.240  INFO 20564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 14:52:34.254  INFO 20564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-31 14:52:34.255  INFO 20564 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 179 ms
+2020-03-31 14:52:34.272  INFO 20564 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-31 14:52:34.277  INFO 20564 --- [cluster-ClusterId{value='5e82e8b288b0991c3c370785', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:13}] to localhost:27017
+2020-03-31 14:52:34.280  INFO 20564 --- [cluster-ClusterId{value='5e82e8b288b0991c3c370785', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1096600}
+2020-03-31 14:52:34.294  INFO 20564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-31 14:52:34.332  INFO 20564 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 14:52:34.362  INFO 20564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-31 14:52:34.363  INFO 20564 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : Started DiandianApplication in 0.329 seconds (JVM running for 750.534)
+2020-03-31 14:56:05.379  INFO 20564 --- [RMI TCP Connection(36)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-31 14:56:05.382  INFO 20564 --- [RMI TCP Connection(36)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-31 14:56:11.148  INFO 10332 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : Starting DiandianApplication on DESKTOP-DGGVMC8 with PID 10332 (E:\Spring\Projects\diandian\bin\main started by Administrator in E:\Spring\Projects\diandian)
+2020-03-31 14:56:11.151  INFO 10332 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : No active profile set, falling back to default profiles: default
+2020-03-31 14:56:11.181  INFO 10332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-31 14:56:11.181  INFO 10332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-31 14:56:11.581  INFO 10332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-03-31 14:56:11.620  INFO 10332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 1 MongoDB repository interfaces.
+2020-03-31 14:56:11.936  INFO 10332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-31 14:56:11.943  INFO 10332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-31 14:56:11.943  INFO 10332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 14:56:11.996  INFO 10332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-31 14:56:11.996  INFO 10332 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 814 ms
+2020-03-31 14:56:12.200  INFO 10332 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-31 14:56:12.237  INFO 10332 --- [cluster-ClusterId{value='5e82e98c3ac2e603c609a74a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:14}] to localhost:27017
+2020-03-31 14:56:12.243  INFO 10332 --- [cluster-ClusterId{value='5e82e98c3ac2e603c609a74a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3152100}
+2020-03-31 14:56:12.386  INFO 10332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-31 14:56:12.522  INFO 10332 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 14:56:12.652  INFO 10332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-31 14:56:12.656  INFO 10332 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : Started DiandianApplication in 1.767 seconds (JVM running for 2.645)
+2020-03-31 15:00:06.549  INFO 10332 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-31 15:00:06.828  INFO 10332 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : Starting DiandianApplication on DESKTOP-DGGVMC8 with PID 10332 (E:\Spring\Projects\diandian\bin\main started by Administrator in E:\Spring\Projects\diandian)
+2020-03-31 15:00:06.828  INFO 10332 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : No active profile set, falling back to default profiles: default
+2020-03-31 15:00:06.943  INFO 10332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-03-31 15:00:06.948  INFO 10332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 MongoDB repository interfaces.
+2020-03-31 15:00:07.007  INFO 10332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-31 15:00:07.008  INFO 10332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-31 15:00:07.008  INFO 10332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-31 15:00:07.021  INFO 10332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-31 15:00:07.021  INFO 10332 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 191 ms
+2020-03-31 15:00:07.038  INFO 10332 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-31 15:00:07.042  INFO 10332 --- [cluster-ClusterId{value='5e82ea773ac2e603c609a74b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:15}] to localhost:27017
+2020-03-31 15:00:07.045  INFO 10332 --- [cluster-ClusterId{value='5e82ea773ac2e603c609a74b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=994900}
+2020-03-31 15:00:07.060  INFO 10332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-31 15:00:07.098  INFO 10332 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-31 15:00:07.137  INFO 10332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-31 15:00:07.138  INFO 10332 --- [restartedMain] cn.edu.scujcc.DiandianApplication        : Started DiandianApplication in 0.331 seconds (JVM running for 237.128)
+2020-03-31 15:04:44.875  INFO 10332 --- [RMI TCP Connection(22)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-31 15:04:44.877  INFO 10332 --- [RMI TCP Connection(22)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
